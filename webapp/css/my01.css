@@ -1,0 +1,76 @@
+.tab-list{
+	
+	width:80%;
+	margin:auto;
+	border-collapse: collapse;
+}
+.tab-list tr{
+	height:40px;
+}
+.tab-list tr>td{
+	
+	border:1px solid #abc;
+}
+
+.tab-list tr:first-child{
+	
+	background-color: #abcddf;
+}
+
+.tab-list tr:first-child>td{
+	
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-size:20px;
+	color:blue;
+}
+
+.tab-list tr>td{
+	text-align:center;
+	
+}
+
+.tab-list tr:last-child>td{
+	
+	border:0;
+	padding-top:20px;
+}
+
+.tab-add{
+	width:50%;
+	border-collapse:collapse;
+	margin:auto;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	
+}
+.tab-add tr{
+	height:40px;
+}
+.tab-add tr>td{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.tab-add tr>td:first-child{
+	text-align:right;
+	border-right:2px solid orange;
+}
+
+.input{
+	
+	width:300px;
+	border-radius:40px;
+	height:30px;
+	border:1px solid #abc;
+	padding-left: 10px;
+	
+}
+
+.input:focus{
+	background-color: #fed;
+	outline:none;
+}
+
